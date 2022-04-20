@@ -1,5 +1,5 @@
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
-from . import BASE, SESSION
+from userbot.modules.sql_helper import BASE, SESSION
 
 
 class Husbando(BASE):
