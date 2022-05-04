@@ -11,6 +11,7 @@ import urllib
 import requests
 from asyncio import sleep
 from bs4 import BeautifulSoup
+from telethon import events
 
 from userbot.modules.sql_helper.waifu_sql import is_harem, add_grp, rm_grp, get_all_grp
 from userbot.modules.sql_helper.husbu_sql import is_husbu, add_hus_grp, rm_hus_grp, get_all_hus_grp
